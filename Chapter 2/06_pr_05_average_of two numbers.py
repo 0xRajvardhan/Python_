@@ -1,6 +1,5 @@
-a=2
-b=4
+a = int(input("Enter first number: "))
+b = int(input("Enter second number: "))
 
-add = a+b
-print(add/2)
 
+print("The average of these two numbers is: ", (a+b)/2)
