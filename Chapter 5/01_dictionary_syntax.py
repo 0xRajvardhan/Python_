@@ -2,7 +2,7 @@ myDict = {
     "fast": "In a quick manner",
     "honey": "A programer",
     "marks": [1, 2, 5],
-    "anotherdict": {'honey': 'developer'} #nested dictionarty
+    "anotherdict": {'honey': 'developer'}  # nested dictionarty
 }
 '''
 dictionaries are unordered 
