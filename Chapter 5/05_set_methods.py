@@ -21,3 +21,8 @@ print(b)
 
 print(b.pop()) # removes an element randomly and "returns" it
 print(b)
+
+print(b.clear()) # empties the set
+
+print(b.union())
+print(b.intersection())
