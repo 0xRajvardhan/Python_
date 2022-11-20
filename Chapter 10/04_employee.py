@@ -4,6 +4,7 @@ class Employee:
 
 honey = Employee()
 rajni = Employee()
+# Changing instance variable 
 honey.salary = 300
 rajni.salary = 400
 
