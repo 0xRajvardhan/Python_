@@ -3,11 +3,15 @@ class Employee:
 
     def getSalary(self, signature):
         print(
-            f"Salary is for this employee working in {self.company} is {self.salary}\n {signature}")
+            f"Salary is for this employee working in {self.company} is {self.salary}\n{signature}")
 
     @staticmethod  # with use of this you can run it without self
     def greet():
         print("Good morning, Sir")
+    
+    @staticmethod
+    def time():
+        print("The time is 9AM in the morning")
 
 
 honey = Employee()
@@ -18,3 +22,5 @@ honey.greet()  # now this will run without self
 
 # Employee.getSalary(honey)
 honey.getSalary("Thanks!")
+
+honey.time()
